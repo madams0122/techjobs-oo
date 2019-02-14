@@ -58,7 +58,7 @@ if (errors.hasErrors()) {
         newJob.setPositionType(jobData.getPositionTypes().findById(jobForm.getPositionTypeId()));
         newJob.setCoreCompetency(jobData.getCoreCompetencies().findById(jobForm.getCoreCompetencyId()));
 
-        //add newJobs to jobData
+       
         jobData.add(newJob);
 
         model.addAttribute("name", newJob.getName());
