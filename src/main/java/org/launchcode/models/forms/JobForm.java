@@ -76,6 +76,54 @@ public class JobForm {
         this.employerId = employerId;
     }
 
+public int getLocationId() {
+        return locationId;
+    }
+
+    public void setLocationId(int locationId) {
+        this.locationId = locationId;
+    }
+
+    public int getCoreCompetencyId() {
+        return coreCompetencyId;
+    }
+
+    public void setCoreCompetencyId(int coreCompetencyId) {
+        this.coreCompetencyId = coreCompetencyId;
+    }
+
+    public int getPositionTypeId() {
+        return positionTypeId;
+    }
+
+    public void setPositionTypeId(int positionTypeId) {
+        this.positionTypeId = positionTypeId;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getCoreCompetency() {
+        return coreCompetency;
+    }
+
+    public void setCoreCompetency(String coreCompetency) {
+        this.coreCompetency = coreCompetency;
+    }
+
+    public String getPositionType() {
+        return positionType;
+    }
+
+    public void setPositionType(String positionType) {
+        this.positionType = positionType;
+    }
+
     public ArrayList<Employer> getEmployers() {
         return employers;
     }
